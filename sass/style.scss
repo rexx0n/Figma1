@@ -143,9 +143,40 @@ h1 {
     line-height: 30px;
 }
 .block2 {
-    background-image: url(../img/221.png);
+    background-image: url(../img/221.png), url(../img/Depositphotos_243392382_X.png);
     height: 1253px;
+    box-shadow: inset 43px 47px 93px 84px rgba(0,0,0,0.6);
 }
 .up {
+    display: flex;
+    align-items: center;
+    padding-top: 142px;
+}
+.line{
+    flex: auto;
+    margin-left: 27px;
+    border-bottom: 0px;
+    background-color:gray;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.content {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 60px 76px 63px;
+}
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 70px;
+    padding-top: 51px;
+}
+.lower-content {
     display: flex;
 }
