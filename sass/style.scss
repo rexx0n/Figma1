@@ -167,7 +167,9 @@ h1 {
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding: 75px 60px 76px 63px;
+}
+.content img {
+    margin: 60px 76px 0px 75px;
 }
 h3 {
     font-style: normal;
@@ -175,7 +177,35 @@ h3 {
     font-size: 42px;
     line-height: 70px;
     padding-top: 51px;
+    padding-left: 165px;
 }
 .lower-content {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.lower-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 70px;
+}
+.more-info {
+    background: #FFE500;
+    border-radius: 0px 20px 0px 0px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.column-one p {
+    padding-left: 30px;
+}
+.column-two {
+    text-align: right;
+}
+.column-two p {
+    padding-right: 30px;
 }
