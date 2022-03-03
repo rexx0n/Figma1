@@ -219,5 +219,37 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: ;
+    background-color: #5C6BC0;
+    justify-content: center;
+    align-items: center;
+}
+.panel p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+}
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 70px;
+}
+.get-whitepapers {
+    width: 260px;
+    border-radius: 50px;
+    background: #FFE500;
+    box-shadow: 0px 10px 15px rgba(255, 229, 0, 0.1), 0px 4px 6px rgba(255, 229, 0, 0.05);
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 164px;
+}
+.get-whitepapers p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 12.4px;
 }
