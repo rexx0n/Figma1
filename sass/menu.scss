@@ -1,0 +1,19 @@
+
+.menu {
+
+    
+
+    display: flex;
+
+    &__link{
+        padding: 50px 25px 50px 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        white-space: nowrap;
+    }
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+    }
+}   
