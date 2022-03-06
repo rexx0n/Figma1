@@ -236,14 +236,41 @@ h2 {
     position: absolute;
     height: 572px;
     left: 457px;
-    top: 2812px;
+    top: 2907px;
 }
 .body {
     display: flex;
+    justify-content: space-between;
+    padding-top: 144px;
 }
 .body__text {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 40px;
+    text-align: center;
+    width: 620px;
+}
+h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 70px;
+}
+.list {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 117px;
+}
+ul li{
+    list-style: none; 
+    background: url(../img/image_14.png) no-repeat left 50%; 
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+}
+.list_content {
+    padding-right: 477px;
 }
