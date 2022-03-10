@@ -1,5 +1,6 @@
 @import "menu";
 @import "button";
+@import "links";
 .block {
     height: 1080px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/11.png),url(../img/22.png);
@@ -62,7 +63,7 @@ a {
     }
 }
 
-.container-plus {
+.container_plus {
     max-width: 1424px;
     margin: 0 auto;
     display: flex;
@@ -70,22 +71,23 @@ a {
     align-items: center;
 }
 
-.container-inner {
+.container_inner {
     width: 100%;
     max-width: 600px;
     padding: 0 15px;
 }
-.soc-icon {
+.soc_icon {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding-left: 102px;
+    margin-left: 102px;
+    margin-right: 102px;
 }
 .image {
     margin-right: 26px;
 }
 
-.image-logo {
+.image_logo {
     margin-top: 232px;
 
 }
@@ -153,18 +155,18 @@ h3 {
     padding-top: 51px;
     padding-left: 165px;
 }
-.lower-content {
+.lower_content {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.lower-content p {
+.lower_content p {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 70px;
 }
-.more-info {
+.more_info {
     background: #FFE500;
     border-radius: 0px 20px 0px 0px;
     width: 170px;
@@ -174,13 +176,13 @@ h3 {
     font-weight: 600;
     font-size: 18px;
 }
-.column-one p {
+.column_one p {
     padding-left: 30px;
 }
-.column-two {
+.column_two {
     text-align: right;
 }
-.column-two p {
+.column_two p {
     padding-right: 30px;
 }
 .panel {
@@ -206,7 +208,7 @@ h2 {
     font-size: 62px;
     line-height: 70px;
 }
-.get-whitepapers {
+.get_whitepapers {
     width: 260px;
     border-radius: 50px;
     background: #FFE500;
@@ -218,7 +220,7 @@ h2 {
     align-items: center;
     margin-left: 164px;
 }
-.get-whitepapers p {
+.get_whitepapers p {
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
@@ -271,7 +273,7 @@ ul li{
     font-size: 16px;
     line-height: 40px;
 }
-.list_content {
+.list__content {
     padding-right: 477px;
 }
 .list_ticks ul li {
@@ -285,15 +287,10 @@ ul li{
     display: flex;
     justify-content: center;
 }
-
-.axes {
-    padding-top: 237px;
-    display: flex;
-    justify-content: flex-end;
-}
 .underside {
     display: flex;
-    position: absolute;
-    left: 225px;
-    top: 4959px;
+    justify-content: center;
+}
+.text {
+    margin-right: 168px;
 }
