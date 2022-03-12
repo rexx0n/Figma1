@@ -12,6 +12,18 @@
         margin-right: 30px;
         display: flex;
         align-items: center;
-
 }
+    &__atomic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__text_2 {
+        font-weight: 100;
+    }
 }
