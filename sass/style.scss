@@ -96,6 +96,7 @@ h1 {
     font-weight: bold;
     font-size: 82px;
     line-height: 70px;
+    margin-right: 27px;
 }
 .cover p {
     font-style: normal;
@@ -130,7 +131,6 @@ h1 {
 }
 .line{
     flex: auto;
-    margin-left: 27px;
     border-bottom: 0px;
     background-color:gray;
 }
@@ -290,7 +290,26 @@ ul li{
 .underside {
     display: flex;
     justify-content: center;
+    margin-top: 237px;
 }
 .text {
     margin-right: 168px;
+}
+.footer {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer__right {
+    display: flex;
+
+}
+.footer__text--right {
+    display: flex;
 }
