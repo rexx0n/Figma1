@@ -313,3 +313,12 @@ ul li{
 .footer__text--right {
     display: flex;
 }
+.footer__text p a {
+    text-decoration:underline;
+}
+.footer__text--right p a {
+    text-decoration: underline;
+}
+.footer__text--right p {
+    margin-left: 40px ;
+}
