@@ -1,4 +1,9 @@
 .links {
+
+    position: relative;
+    top: -190px;
+    left: 15px;
+
     &__image {
         
         display: flex;
@@ -32,6 +37,9 @@
         font-weight: 400;
         font-size: 26px;
         line-height: 40px;
+        position: relative;
+        right: 14px;
         text-align: center;
+        padding-bottom: 60px;
     }
 }
