@@ -211,8 +211,7 @@ h2 {
   width: 260px;
   border-radius: 50px;
   background: #ffe500;
-  box-shadow: 0px 10px 15px rgba(255, 229, 0, 0.1),
-    0px 4px 6px rgba(255, 229, 0, 0.05);
+  box-shadow: 0px 10px 15px rgba(255, 229, 0, 0.1),0px 4px 6px rgba(255, 229, 0, 0.05);
   height: 60px;
   border: none;
   display: flex;
@@ -246,6 +245,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding-top: 144px;
+  margin-bottom: 150px;
 }
 .body__text {
   font-style: normal;
