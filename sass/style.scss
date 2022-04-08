@@ -8,7 +8,19 @@
   background-size: cover;
   background-position: center;
   box-shadow: inset black 0px -20px 62px 45px;
+  width: 1920px;
 }
+  
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .menu__link {
+    color: #000;
+  }
+  
+} 
+
 * {
   margin: 0;
   padding: 0;
