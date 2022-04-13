@@ -8,19 +8,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: inset black 0px -20px 62px 45px;
-  width: 1920px;
 }
-  
-@media screen and (max-width: 375px) {
-  body {
-    width: 375px;
-  }
-  .menu__link {
-    color: #000;
-  }
-  
-} 
-
 * {
   margin: 0;
   padding: 0;
@@ -198,7 +186,6 @@ h3 {
 }
 .panel {
   background-image: url(../img/222.png);
-  height: 220px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,3 +340,15 @@ ul li {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 375px) {
+
+ .block {
+   width: 375px;
+   height: 334px;
+ }
+ .logo {
+   justify-content: flex-start;
+ }
+  
+} 
