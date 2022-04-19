@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 117px;
+
+  &__content {
+    padding-right: 477px;
+  }
+  &__ticks ul li {
+    background: url(../img/image_15.png) no-repeat left 50%;
+    padding-left: 25px;
+  }
+  &__2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+}

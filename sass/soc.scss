@@ -1,0 +1,10 @@
+.soc {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 102px;
+  margin-right: 102px;
+  &__icon {
+      margin-right: 26px;
+  }
+}
