@@ -6,6 +6,8 @@
 @import "content";
 @import "panel";
 @import "list";
+@import "container";
+@import "cover";
 .block {
   height: 1080px;
   background-image: url(../img/11.png), url(../img/22.png);
@@ -29,19 +31,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-.container {
-  width: 100%;
-  max-width: 1256px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.cover {
-  padding-top: 60px;
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .header {
   display: flex;
   justify-content: space-between;
@@ -49,18 +38,6 @@ a {
   .menu {
     margin: 0 -15px;
   }
-}
-.container_plus {
-  max-width: 1424px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.container_inner {
-  width: 100%;
-  max-width: 600px;
-  padding: 0 15px;
 }
 .image_logo {
   margin-top: 232px;
@@ -71,13 +48,6 @@ h1 {
   font-size: 82px;
   line-height: 70px;
   margin-right: 27px;
-}
-.cover p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 32px;
-  margin-top: 64px;
 }
 .scroll {
   display: flex;

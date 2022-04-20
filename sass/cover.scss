@@ -1,0 +1,15 @@
+.cover {
+  padding-top: 60px;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 64px;
+  }
+}
