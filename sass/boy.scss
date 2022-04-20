@@ -1,0 +1,23 @@
+.boy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 144px;
+  margin-bottom: 150px;
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    width: 620px;
+  }
+  &__start {
+    text-align: center;
+  }
+  &__boy {
+    background: rgba(255, 255, 255, 0.01);
+    filter: blur(100px);
+    backdrop-filter: blur(100px);
+    position: absolute;
+  }
+}

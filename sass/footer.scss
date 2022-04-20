@@ -1,0 +1,25 @@
+.footer {
+  position: relative;
+  top: -106px;
+
+  &__container {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__right {
+    display: flex;
+  }
+  &__text--right {
+    display: flex;
+  }
+  &__text p a {
+    text-decoration: underline;
+  }
+  &__text--right p a {
+    text-decoration: underline;
+  }
+  &__text--right p {
+    margin-left: 40px;
+  }
+}

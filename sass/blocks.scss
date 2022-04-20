@@ -1,0 +1,34 @@
+.block {
+  height: 1080px;
+  background-image: url(../img/11.png), url(../img/22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset black 0px -20px 62px 45px;
+
+  &__2 {
+    background-image: url(../img/221.png),
+      url(../img/Depositphotos_243392382_X.png);
+    height: 1253px;
+    box-shadow: inset 43px 47px 93px 84px rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset black 0px 20px 110px 122px;
+  }
+
+  &__3 {
+    background-image: url(/img/Depositphotos_286543058_XL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset black 2px -20px 200px 303px;
+  }
+  &__4 {
+    background: url(../img/galaxy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset black 0px -20px 320px 154px;
+  }
+}
