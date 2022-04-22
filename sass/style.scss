@@ -36,7 +36,7 @@ a {
     margin: 0 -15px;
   }
 }
-.image_logo {
+.image__logo {
   margin-top: 232px;
 }
 h1 {
@@ -99,32 +99,10 @@ ul li {
 }
 
 @media screen and (max-width: 1200px) {
-  .menu {
-    position: absolute;
-    z-index: -1;
-  }
-  .container__plus {
-    padding-top: 29px;
-    padding-left: 29px;
-  }
-  .soc {
-    position: absolute;
-    z-index: -1;
-  }
-  .button {
-    margin-left: 40px;
-  }
-  .cover__h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
-  }
   .image__logo {
     margin-top: 161px;
   }
-
-  .logo {
+  .header {
     justify-content: flex-start;
   }
 }

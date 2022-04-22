@@ -1,8 +1,5 @@
 
 .menu {
-
-    
-
     display: flex;
 
     &__link{
@@ -14,3 +11,10 @@
         white-space: nowrap;
     }
 }   
+@media screen and (max-width: 1200px) {
+  .menu {
+    position: absolute;
+    z-index: -1;
+    flex-direction: column;
+  }
+}

@@ -8,3 +8,9 @@
       margin-right: 26px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .soc {
+    position: absolute;
+    z-index: -1;
+  }
+}

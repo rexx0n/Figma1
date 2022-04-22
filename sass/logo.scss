@@ -9,3 +9,8 @@
   margin-right: 260px;
 }
 }
+@media screen and (max-width: 1200px) {
+    .logo {
+    justify-content: flex-start;
+  }
+}

@@ -16,4 +16,19 @@
     max-width: 600px;
     padding: 0 15px;
   }
+  &__menu {
+    position: absolute;
+    z-index: -1;
+  }
+  @media screen and (max-width: 1200px) {
+    &__plus {
+      padding-top: 29px;
+      padding-left: 29px;
+    }
+    &__menu{
+      position: static;
+      z-index: 0;
+      margin-left: 15px;
+    }
+  }
 }
