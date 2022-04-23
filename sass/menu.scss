@@ -1,6 +1,7 @@
 
 .menu {
     display: flex;
+    margin: 0 -15px;
 
     &__link{
         padding: 50px 25px 50px 25px;
@@ -16,5 +17,7 @@
     position: absolute;
     z-index: -1;
     flex-direction: column;
+    margin-left: -50px;
+    margin: 0;
   }
 }

@@ -32,9 +32,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .menu {
-    margin: 0 -15px;
-  }
 }
 .image__logo {
   margin-top: 232px;
@@ -104,5 +101,12 @@ ul li {
   }
   .header {
     justify-content: flex-start;
+  }
+  .image__logo img {
+    width: 150px;
+    height: 108px;
+  }
+  .block {
+    background-position-x:62% ;
   }
 }
