@@ -17,8 +17,7 @@
   &__info {
     background: #ffe500;
     border-radius: 0px 20px 0px 0px;
-    width: 170px;
-    height: 50px;
+    padding: 13px 53px 13px 30px;
     border: none;
     font-style: normal;
     font-weight: 600;
@@ -35,5 +34,28 @@
   }
   & img {
     margin: 60px 76px 0px 75px;
+  }
+}
+.content--top {
+  margin-top: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .content img {
+    width: 220px;
+    margin: 39px 47px 39px 48px;
+  }
+  .content h3 {
+    padding-top: 23px;
+    padding-left: 85px;
+    font-size: 28px;
+  }
+  .content__one p {
+    font-size: 18px;
+  }
+  .content__info {
+    padding: 17px 39px 13px 19px;
+  }
+  .content__two p{
+    font-size: 18px;
   }
 }
