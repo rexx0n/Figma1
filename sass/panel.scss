@@ -9,9 +9,14 @@
   align-items: center;
 
   & p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
+@media screen and (max-width: 1200px) {
+  .panel {
+    flex-direction: column;
+  }
 }

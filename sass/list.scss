@@ -14,5 +14,18 @@
   display: flex;
   justify-content: space-around;
 }
-
+}
+@media screen and (max-width: 1200px) {
+  .list{
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .list__content {
+    padding: 0;
+  }
+  .list__2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
