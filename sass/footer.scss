@@ -23,3 +23,20 @@
     margin-left: 40px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    flex-direction: column;
+    line-height: 30px;
+  }
+  .footer__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer__right {
+    justify-content: center;
+  }
+}

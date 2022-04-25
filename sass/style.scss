@@ -14,6 +14,12 @@
 @import "boy";
 @import "footer";
 @import "underside";
+@import "header";
+@import "image";
+@import "products";
+@import "blur";
+@import "text";
+@import "png-background";
 * {
   margin: 0;
   padding: 0;
@@ -29,25 +35,12 @@ a {
   text-decoration: none;
   color: #fff;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.image__logo {
-  margin-top: 232px;
-}
 h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 82px;
   line-height: 70px;
   margin-right: 27px;
-}
-.products {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 100px;
 }
 h3 {
   font-style: normal;
@@ -63,10 +56,6 @@ h2 {
   font-size: 62px;
   line-height: 70px;
 }
-.blur {
-  position: relative;
-}
-
 h4 {
   font-style: normal;
   font-weight: bold;
@@ -82,44 +71,4 @@ ul li {
   font-size: 16px;
   line-height: 40px;
 }
-.text {
-  margin-right: 168px;
-}
-.png-background {
-  background: url(/img/globus.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-@media screen and (max-width: 1200px) {
-  .image__logo {
-    margin-top: 161px;
-  }
-  .header {
-    justify-content: flex-start;
-  }
-  .image__logo img {
-    width: 150px;
-    height: 108px;
-  }
-  .block {
-    background-position-x: 62%;
-  }
-  .products {
-    padding-top: 24px;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
-  }
-  .text h2 {
-    font-size: 44px;
-  }
-  .text p {
-    font-size: 22px;
-  }
-  .blur {
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-  }
-}

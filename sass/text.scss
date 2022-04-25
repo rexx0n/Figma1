@@ -1,0 +1,11 @@
+.text {
+  margin-right: 168px;
+}
+@media screen and (max-width: 1200px) {
+  .text h2 {
+    font-size: 44px;
+  }
+  .text p {
+    font-size: 22px;
+  }
+}

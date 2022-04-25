@@ -1,0 +1,12 @@
+.image {
+  margin-top: 232px;
+}
+@media screen and (max-width: 1200px) {
+  .image {
+    margin-top: 161px;
+  }
+  .image img {
+    width: 150px;
+    height: 108px;
+  }
+}
