@@ -18,6 +18,8 @@
 @media screen and (max-width: 1200px) {
   .list{
     padding: 0;
+    flex-direction: column;
+    align-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -27,5 +29,7 @@
   .list__2 {
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
   }
 }

@@ -13,6 +13,7 @@
 @import "up";
 @import "boy";
 @import "footer";
+@import "underside";
 * {
   margin: 0;
   padding: 0;
@@ -80,11 +81,6 @@ ul li {
   font-weight: normal;
   font-size: 16px;
   line-height: 40px;
-}
-.underside {
-  display: flex;
-  justify-content: center;
-  margin-top: 237px;
 }
 .text {
   margin-right: 168px;

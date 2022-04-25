@@ -1,0 +1,22 @@
+.underside {
+  display: flex;
+  justify-content: center;
+  margin-top: 237px;
+}
+@media screen and (max-width: 1200px) {
+    .underside {
+        margin-top: 100px;
+    }
+    .underside__man {
+        opacity: 0;
+        position: absolute;
+    }
+    .underside__woman {
+        opacity: 0;
+        position: absolute;
+    }
+    .underside__axes {
+        max-width: 327px;
+        max-height: 308px;
+    }
+}
